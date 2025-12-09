@@ -1,11 +1,11 @@
 {
-  "buildCommand": "cd personal-portfolio/narender-builds-code && npm run build",
-  "outputDirectory": "personal-portfolio/narender-builds-code/dist",
-  "framework": "vite",
-  "rewrites": [
+  "projects": [
     {
-      "source": "/(.*)",
-      "destination": "/"
+      "src": "personal-portfolio/narender-builds-code",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
     }
   ]
 }
