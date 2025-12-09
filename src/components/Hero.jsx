@@ -77,18 +77,19 @@ const Hero = () => {
                 Hello, I'm
               </span>
 
-              <h1 className="text-6xl lg:text-7xl font-black leading-none">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black leading-tight">
                 <span className="bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-pulse">
                   Narender
                 </span>
               </h1>
 
-              <h2 className="text-2xl lg:text-3xl font-semibold text-foreground/90">
+              <h2 className="text-xl sm:text-1xl lg:text-3xl font-semibold text-foreground/90 leading-snug">
                 I design and build modern web experiences
               </h2>
 
-              <p className="text-lg text-muted-foreground max-w-md mx-auto lg:mx-0">
-                Full Stack Developer · Problem Solver · Specializing in MERN, AI-driven solutions, and future-ready web innovation.
+              <p className="text-base sm:text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-md mx-auto lg:mx-0">
+                Full Stack Developer · Problem Solver · Specializing in MERN,
+                AI-driven solutions, and future-ready web innovation.
               </p>
             </div>
 
@@ -129,7 +130,7 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div
-              className={`flex gap-4 justify-center lg:justify-start mt-8 transition-all duration-1000 delay-400 ${
+              className={`flex flex-wrap gap-3 sm:gap-4 justify-center lg:justify-start mt-8 transition-all duration-1000 delay-400 ${
                 mounted
                   ? "opacity-100 translate-y-0"
                   : "opacity-0 translate-y-10"
@@ -137,14 +138,14 @@ const Hero = () => {
             >
               <button
                 onClick={() => scrollToSection("projects")}
-                className="px-8 py-4 bg-gradient-to-r from-primary to-accent text-primary-foreground rounded-full font-semibold hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-primary/25 flex items-center gap-2"
+                className="px-4 sm:px-6 py-2 sm:py-3 bg-gradient-to-r from-primary to-accent text-primary-foreground rounded-full font-semibold text-sm sm:text-base hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-primary/25 flex items-center gap-2"
               >
                 <span>View Projects</span>
                 <ArrowDown className="w-4 h-4" />
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
-                className="px-8 py-4 bg-transparent border-2 border-border hover:border-accent hover:bg-accent/10 rounded-full font-semibold transition-all duration-300 hover:scale-105 flex items-center gap-2"
+                className="px-4 sm:px-6 py-2 sm:py-3 bg-transparent border-2 border-border hover:border-accent hover:bg-accent/10 rounded-full font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-105 flex items-center gap-2"
               >
                 <span>Let's Connect</span>
                 <Send className="w-4 h-4" />
