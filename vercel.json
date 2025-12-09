@@ -1,0 +1,11 @@
+{
+  "buildCommand": "cd personal-portfolio/narender-builds-code && npm run build",
+  "outputDirectory": "personal-portfolio/narender-builds-code/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}
