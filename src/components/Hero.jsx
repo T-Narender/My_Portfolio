@@ -63,9 +63,9 @@ const Hero = () => {
       </div>
 
       <div className="max-w-7xl mx-auto px-6 py-20">
-        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
+        <div className="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh] justify-items-center lg:justify-items-start">
           {/* Main Content */}
-          <div className="text-center lg:text-left">
+          <div className="w-full text-center lg:text-left flex flex-col items-center lg:items-start">
             <div
               className={`space-y-6 transition-all duration-1000 ${
                 mounted
@@ -87,7 +87,7 @@ const Hero = () => {
                 I design and build modern web experiences
               </h2>
 
-              <p className="text-base sm:text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-md mx-auto lg:mx-0">
+              <p className="text-center lg:text-left text-base sm:text-lg lg:text-xl text-muted-foreground leading-relaxed max-w-xs sm:max-w-md mx-auto lg:mx-0">
                 Full Stack Developer · Problem Solver · Specializing in MERN,
                 AI-driven solutions, and future-ready web innovation.
               </p>

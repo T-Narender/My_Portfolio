@@ -39,16 +39,11 @@ const About = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">My Journey</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    My journey into software development began with a deep
-                    curiosity about how technology works. Initially, I started
-                    exploring technology out of curiosity, experimenting with
-                    small projects and learning how things worked behind the
-                    screen. That curiosity turned into a passion for building
-                    experiences that feel intuitive and enjoyable. Today, my focus is on creating clean, functional,
-                    and creative solutions that align with the way people
-                    interact with technology.Each
-                    project pushes me to learn more, refine my skills, and
-                    create work that reflects both creativity and purpose. 
+                    I started in software development out of curiosity about how
+                    technology works. That spark grew into a passion for
+                    building clean, intuitive experiences, and today I focus on
+                    crafting practical, creative solutions that keep improving
+                    with every project.
                   </p>
                 </div>
               </div>
