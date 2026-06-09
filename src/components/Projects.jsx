@@ -31,11 +31,19 @@ const Projects = () => {
       live: "https://rent-ease-six-eta.vercel.app",
     },
 
+<<<<<<< HEAD
     {
       title: "AI-ResumeCrafter: Tailored Resumes in Minutes",
       description: `
       ResumeCraft is an AI-powered resume builder web application that enables users to create ATS-friendly resumes effortlessly. It provides an intuitive editor with professionally designed templates and smart suggestions for summary, work experience, skills, and project descriptions. The system uses secure authentication, cloud-based storage, and real-time editing to help candidates build personalized resumes in minutes. Users can preview, export, and manage multiple resumes through a modern dashboard. Developed with the MERN stack, the platform offers a seamless and responsive user experience.`,
 
+=======
+      {
+      title: "AI-ResumeCrafter: Tailored Resumes in Minutes",
+      description: `
+      ResumeCraft is an AI-powered resume builder web application that enables users to create ATS-friendly resumes effortlessly. It provides an intuitive editor with professionally designed templates and smart suggestions for summary, work experience, skills, and project descriptions. The system uses secure authentication, cloud-based storage, and real-time editing to help candidates build personalized resumes in minutes. Users can preview, export, and manage multiple resumes through a modern dashboard. Developed with the MERN stack, the platform offers a seamless and responsive user experience.`,
+      
+>>>>>>> 777b70d205c7745750bd6c241adebe9521a6e096
       tech: [
         "Html",
         "TailwindCSS",
@@ -47,6 +55,10 @@ const Projects = () => {
         "Gemini API",
         "JWT Authentication",
         "Cloudinary",
+<<<<<<< HEAD
+=======
+        
+>>>>>>> 777b70d205c7745750bd6c241adebe9521a6e096
       ],
       image:
         "https://images.unsplash.com/photo-1698047681432-006d2449c631?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -55,6 +67,7 @@ const Projects = () => {
     },
 
     {
+<<<<<<< HEAD
       title: "Generative-AI-Voice-Assistant ",
       description: `
       Built a conversational AI application that converts speech to text using Groq Whisper, generates intelligent responses using Gemini, and delivers spoken output through Google TTS. Implemented a Flask backend, modular architecture, and responsive web interface for seamless voice-based interactions.`,
@@ -74,6 +87,8 @@ const Projects = () => {
     },
 
     {
+=======
+>>>>>>> 777b70d205c7745750bd6c241adebe9521a6e096
       title: " Real-time Chat Application",
       description:
         " Built a real-time one-to-one chat app with user authentication, profile updates, authentication & authorization,and online user visibility. All messages and user data stored in MongoDB.",
@@ -108,7 +123,11 @@ const Projects = () => {
       image:
         "https://images.unsplash.com/photo-1740393068164-9605d878442c?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       github: "https://github.com/T-Narender/Gemini-Clone.git",
+<<<<<<< HEAD
       live: "https://github.com/T-Narender/Gemini-Clone.git",
+=======
+      live:"https://github.com/T-Narender/Gemini-Clone.git",
+>>>>>>> 777b70d205c7745750bd6c241adebe9521a6e096
     },
 
     {
@@ -119,7 +138,11 @@ const Projects = () => {
       image:
         "https://images.unsplash.com/photo-1661595676743-4da6e0755062?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QUktUG93ZXJlZCUyMFBERiUyMFN0dWR5JTIwQXNzaXN0YW50fGVufDB8fDB8fHww",
       github: "https://github.com/T-Narender/studyMate.git",
+<<<<<<< HEAD
       live: "https://github.com/T-Narender/studyMate.git",
+=======
+      live:  "https://github.com/T-Narender/studyMate.git",
+>>>>>>> 777b70d205c7745750bd6c241adebe9521a6e096
     },
     {
       title: "Simon-Says Game",
